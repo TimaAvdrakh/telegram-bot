@@ -27,7 +27,7 @@ def help_command(update, context):
 
 def echo(update, context):
     """Echo the user message."""
-    update.message.reply_text(update.message.text)
+    update.message.reply_text(update.message.text + "  И че сука")
 
 def main():
     """Starting fucking bot"""
